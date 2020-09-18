@@ -1,0 +1,11 @@
+# Nhập họ tên, MSSV, tuổi. In ra họ tên, MSSV, tuổi và kiểu dữ liệu
+HoTen = str(input("Nhập họ tên sinh viên: "))
+MSSV = str(input("Nhập mã số sinh viên:"))
+Tuoi = int(input("Nhập tuổi: "))
+print("--------Hiển thị------------")
+a = type(HoTen)
+b = type(MSSV)
+c = type(Tuoi)
+print(f"Họ tên: {HoTen} \n" f"kiểu dữ liệu: {a}")
+print(f"Mã Số Sinh Viên: {MSSV} \n" f"kiểu dữ liệu: {b}")
+print(f"Tuổi: {Tuoi} \n" f"kiểu dữ liệu: {c}")
